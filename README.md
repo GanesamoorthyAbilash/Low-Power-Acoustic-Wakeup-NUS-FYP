@@ -9,7 +9,9 @@ No Pingpong with print - System collect 10240 samples, performs match filtering,
 
 Pingpong - System collect samples in a Pingpong method and performs match filtering. Results indicated by LED
 
-Pingpong with print - System collect samples in a Pingpong method and performs match filtering and print the results (combined use with Serial Port.ipynb)
+Pingpong with print - Same as Pinpong and print the results (combined use with Serial Port.ipynb)
+
+Slow Pingpong - Same as Pinpong with slower clock
 
 64 bit testing - The Waveform file used for generating the necessary test waves.
 
