@@ -1,0 +1,6 @@
+---
+label: "Pingpong"
+project:
+- id: "main"
+  path: "Pingpong.slcp"
+  output: "."
