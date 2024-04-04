@@ -1,6 +1,7 @@
-// With reference from:
+// Reference Programs:
 //https://github.com/SiliconLabs/peripheral_examples/tree/master/series2/iadc/iadc_single_calibration
 //Drivers from Simplicity Studio 5 gecko SDK 4.4.1
+//PG28 Pro Kit Example Project ==> Platform - I/O Stream USART Bare-metal
 
 #include "sl_iostream.h"
 #include "sl_iostream_init_instances.h"
