@@ -1,19 +1,6 @@
-/***************************************************************************//**
- * @file
- * @brief Top level application functions
- *******************************************************************************
- * # License
- * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
- *******************************************************************************
- *
- * The licensor of this software is Silicon Laboratories Inc. Your use of this
- * software is governed by the terms of Silicon Labs Master Software License
- * Agreement (MSLA) available at
- * www.silabs.com/about-us/legal/master-software-license-agreement. This
- * software is distributed to you in Source Code format and is governed by the
- * sections of the MSLA applicable to Source Code.
- *
- ******************************************************************************/
+// With reference from:
+//https://github.com/SiliconLabs/peripheral_examples/tree/master/series2/iadc/iadc_single_calibration
+//Drivers from Simplicity Studio 5 gecko SDK 4.4.1
 
 #include "sl_iostream.h"
 #include "sl_iostream_init_instances.h"
