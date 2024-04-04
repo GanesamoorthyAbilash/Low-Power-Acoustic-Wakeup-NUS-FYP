@@ -1,4 +1,4 @@
-// With reference from:
+// Reference Programs:
 //https://github.com/SiliconLabs/peripheral_examples/blob/master/series2/iadc/iadc_single_low_current/src/main_single_low_current.c
 //Drivers from Simplicity Studio 5 gecko SDK 4.4.1
 //PG28 Pro Kit Example Project ==> Platform - I/O Stream USART Bare-metal
@@ -24,7 +24,7 @@
  *******************************   DEFINES   ***********************************
  ******************************************************************************/
 // Declare time to sleep in ms
-#define TIMEOUT_MS 10000
+#define TIMEOUT_MS 60000
 
 
 //Setting CLK Frequencies to be used by the ADC
