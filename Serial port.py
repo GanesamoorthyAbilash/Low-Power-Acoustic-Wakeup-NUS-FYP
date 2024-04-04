@@ -1,3 +1,7 @@
+#Reference Programs
+#https://pythonhosted.org/pyserial/shortintro.html#opening-serial-ports
+#https://matplotlib.org/stable/gallery/index.html
+
 import serial
 import time
 import sys
