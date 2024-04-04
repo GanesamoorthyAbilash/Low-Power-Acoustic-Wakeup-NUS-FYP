@@ -1,21 +1,7 @@
-//PING PONG with 10240
+//https://github.com/SiliconLabs/peripheral_examples/tree/master/series2/iadc/iadc_scan_iadc_timer
+//Drivers from Simplicity Studio 5 gecko SDK 4.4.1
+//PG28 Pro Kit Example Project ==> Platform - I/O Stream USART Bare-metal
 
-/***************************************************************************//**
- * @file
- * @brief Top level application functions
- *******************************************************************************
- * # License
- * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
- *******************************************************************************
- *
- * The licensor of this software is Silicon Laboratories Inc. Your use of this
- * software is governed by the terms of Silicon Labs Master Software License
- * Agreement (MSLA) available at
- * www.silabs.com/about-us/legal/master-software-license-agreement. This
- * software is distributed to you in Source Code format and is governed by the
- * sections of the MSLA applicable to Source Code.
- *
- ******************************************************************************/
 
 #include <app_peripherals.h>
 #include <stdio.h>
@@ -179,7 +165,7 @@ void app_process_action(void)
           //Printing Match filter results
           printf("%d   ",loopsum);
       }
-      //printf("\nsp\n");
+      printf("\nsp\n");
 
       //Clearing LED1 for checking threshold in next loop
       GPIO_PinOutClear(GPIO_OUTPUT_1_PORT,GPIO_OUTPUT_1_PIN);
